@@ -33,17 +33,17 @@ Steps to install ndnSIM 2.9 on Ubuntu:
  
    For Ubuntu 22.04:
 
-   sh u22ndnsim.sh
+       sh u22ndnsim.sh
 
    For Ubuntu 24.04.1 LTS:
 
-   sh u24ndnsim.sh
+       sh u24ndnsim.sh
   
 You are done with it! 
 
 Verifying the installation of ndnSIM:
 
-1. cd ndnSIM/ns-3 
+1.     cd ndnSIM/ns-3 
  
 2. Give following command:
 
