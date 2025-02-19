@@ -31,8 +31,12 @@ Steps to install ndnSIM 2.9 on Ubuntu:
 
 4. Give the following command on terminal:
  
-   For Ubuntu 22.04:  sh u22ndnsim.sh
-   <br> For Ubuntu 24.04.1 LTS:
+   For Ubuntu 22.04:
+
+   sh u22ndnsim.sh
+
+   For Ubuntu 24.04.1 LTS:
+
    sh u24ndnsim.sh
   
 You are done with it! 
