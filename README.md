@@ -23,7 +23,7 @@ Steps to install ndnSIM 2.9 on Ubuntu:
 1. Install Ubuntu 22.04 or higher and perform software update after installation.
  
 2. Download the shell script and place it in home folder: 
-     For Ubuntu 22.04:              u22ndnsim.sh
+     For Ubuntu 22.04:          u22ndnsim.sh
      For Ubuntu 24.04.1 LTS:    u24ndnsim.sh
 
 3. Open terminal and enter into superuser mode by typing 'sudo su' then followed by the system password. 
@@ -31,8 +31,10 @@ Steps to install ndnSIM 2.9 on Ubuntu:
 
 4. Give the following command on terminal:
  
-      	For Ubuntu 22.04:             sh u22ndnsim.sh
-        For Ubuntu 24.04.1 LTS:   sh u24ndnsim.sh
+   For Ubuntu 22.04:
+   sh u22ndnsim.sh
+   For Ubuntu 24.04.1 LTS:
+   sh u24ndnsim.sh
   
 You are done with it! 
 
@@ -46,9 +48,9 @@ Verifying the installation of ndnSIM:
 
 If you see " 'build' finished successfully " message, ndnSIM is installed correctly.
 
-3. If you want to verify same program with visualizer then then enter following command
+3. If you want to verify same program with visualizer then then enter following command (visualizer not supported in ubuntu 24.04.1 LTS)
  
-     	sudo ./waf --run=first --vis      (visualizer not supported in ubuntu 24.04.1 LTS)
+     	sudo ./waf --run=first --vis      
  
 This command should open with visualizer.
 
